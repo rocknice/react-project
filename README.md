@@ -1,6 +1,6 @@
 # react-starter-project
 
-a starter project using react + mobx + react-router-dom
+使用react + mobx + react-router-dom构建项目
 
 ```bash
 yarn
