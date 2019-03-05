@@ -1,0 +1,6 @@
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 5px;
+  transition: background-color 300ms, color 300ms;
+}

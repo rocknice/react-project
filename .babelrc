@@ -1,0 +1,30 @@
+{
+  "presets": [
+    "es2015",
+    "react",
+    "stage-0"
+  ],
+  "plugins": [
+    ["transform-decorators-legacy"],
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": true
+      }
+    ],
+    ["module-resolver", {
+        "root": ["./assets"],
+        "alias": {
+          "components": "./assets/components",
+          "configs": "./assets/configs",
+          "constants": "./assets/constants",
+          "containers": "./assets/containers",
+          "images": "./assets/images",
+          "stores": "./assets/stores",
+          "styles": "./assets/styles",
+          "utils": "./assets/utils"
+        }
+    }]
+  ]
+}
